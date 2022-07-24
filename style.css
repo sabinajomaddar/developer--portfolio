@@ -5,15 +5,15 @@ body{
 }
 h1{font-size: 50px;
 }
-.orange-color{color: red;}
+.blue-color{color: rgb(49, 145, 113);}
 
 .flexble-container{
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: 170px;
 }
 .half-width{width: 50%;
 padding-left: 10px;
-box-shadow: 10px 10px ;
+
 }
 
 
@@ -27,13 +27,32 @@ box-shadow: 10px 10px ;
 }
 .top-bannar{
    background-image:url(image/top-banner.png);
-   background-repeat: no-repeat;
+   background-repeat:no-repeat;
 
+}
+.New-experiance{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .dream-big{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+ background-position: right;
 }
 .tomato-color{color: red;}
+.baby-text{
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 40px chocolate;
+}
+#full-stake-developer{
+    border-left: 7px solid orangered;
+}
+#Baby-web-developer{
+    border-left: 7px solid blue;
+}
 
